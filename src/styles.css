@@ -10,17 +10,18 @@ body {
   font-weight: bold;
 }
 
-.intro-header {
-  margin: 100px auto;
-  font-family: "Shadows Into Light", cursive;
+.hero {
+  margin: 100px 0 140px 0;
 }
 
 h1 {
   font-size: 5em;
+  font-family: "Shadows Into Light", cursive;
 }
 
 h2 {
   font-size: 2em;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .hero-img {
@@ -38,6 +39,7 @@ h2 {
   border-top-right-radius: 15px 225px;
   border-color: #41403e;
   padding: 0.75rem;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .buttony:hover {
