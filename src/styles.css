@@ -11,7 +11,7 @@ body {
 }
 
 .intro-header {
-  margin-top: 100px;
+  margin: 100px auto;
   font-family: "Shadows Into Light", cursive;
 }
 
@@ -28,7 +28,7 @@ h2 {
   margin-left: 600px;
   margin-top: -300px;
 }
-
+/* buttony styles from paper.css */
 .buttony {
   box-shadow: 15px 28px 25px -18px rgb(0 0 0 / 20%);
   transition: all 235ms ease-in-out 0s;
@@ -43,12 +43,4 @@ h2 {
 .buttony:hover {
   transform: translate3d(0, 2px, 0);
   box-shadow: 2px 8px 8px -5px rgb(0 0 0 / 30%);
-}
-
-.project-images {
-  border-bottom-left-radius: 15px 255px;
-  border-bottom-right-radius: 225px 15px;
-  border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
-  border-color: #41403e;
 }
