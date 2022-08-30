@@ -13,17 +13,22 @@ body {
 .hero {
   margin: 100px 0 140px 0;
 }
-
+h1,
+h2,
+h3 {
+  font-family: "Shadows Into Light", cursive;
+}
 h1 {
   font-size: 5em;
-  font-family: "Shadows Into Light", cursive;
 }
 
 h2 {
   font-size: 2em;
-  font-family: "Shadows Into Light", cursive;
 }
 
+p {
+  font-family: "Maven Pro", sans-serif;
+}
 .hero-img {
   transform: rotate(2deg);
   margin-left: 600px;
@@ -45,4 +50,10 @@ h2 {
 .buttony:hover {
   transform: translate3d(0, 2px, 0);
   box-shadow: 2px 8px 8px -5px rgb(0 0 0 / 30%);
+}
+
+.socials a {
+  font-size: 1.5em;
+  color: #41403e;
+  padding: 0 0.5rem;
 }
