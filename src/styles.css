@@ -57,3 +57,30 @@ p {
   color: #41403e;
   padding: 0 0.5rem;
 }
+
+.bio {
+  margin-top: 150px;
+}
+
+.bio-pic {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .bio {
+    text-align: center;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+  }
+  .bio-pic {
+    margin-bottom: 20px;
+  }
+}
