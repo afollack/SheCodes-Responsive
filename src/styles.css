@@ -1,8 +1,15 @@
+:root {
+  --secondary-color: #41403e;
+}
 body {
   background-color: #f5f5f5;
 }
 
-.nav-link {
+a {
+  color: var(--secondary-color);
+}
+.nav-link,
+p {
   font-family: "Maven Pro", sans-serif;
 }
 
@@ -26,9 +33,6 @@ h2 {
   font-size: 2em;
 }
 
-p {
-  font-family: "Maven Pro", sans-serif;
-}
 .hero-img {
   transform: rotate(2deg);
   margin-left: 600px;
@@ -42,7 +46,7 @@ p {
   border-bottom-right-radius: 225px 15px;
   border-top-left-radius: 255px 15px;
   border-top-right-radius: 15px 225px;
-  border-color: #41403e;
+  border-color: var(--secondary-color);
   padding: 0.75rem;
   font-family: "Shadows Into Light", cursive;
 }
@@ -54,7 +58,6 @@ p {
 
 .socials a {
   font-size: 1.5em;
-  color: #41403e;
   padding: 0 0.5rem;
 }
 
@@ -69,19 +72,18 @@ p {
   border-radius: 50%;
 }
 
+.contact {
+  margin-bottom: 80px;
+}
 .contact i {
   font-size: 2em;
   margin: 20px;
-  color: #41403e;
 }
-
+.contact a {
+  font-family: "Maven Pro", sans-serif;
+}
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
+  margin-top: auto;
 }
 @media (max-width: 768px) {
   h1 {
