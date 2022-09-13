@@ -104,8 +104,9 @@ h2 {
     font-size: 3em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
+
   .bio {
     text-align: center;
     flex-direction: column-reverse;
