@@ -116,3 +116,7 @@ h2 {
     margin-bottom: 20px;
   }
 }
+
+.navbar-collapse {
+  display: flex;
+}
