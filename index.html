@@ -84,7 +84,6 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
       <div class="row mt-5">
         <div class="col-sm-12 d-flex flex-column align-items-center hero">
           <h2 class="text-center">👋Hello! I am</h2>
@@ -100,14 +99,13 @@
           />
         </div>
       </div>
-    </div>
-    <div class="container" id="projects-section">
+    <section id="projects-section">
       <h2 class="text-center p-5 mt-5">Featured Projects</h2>
 
       <div class="row justify-content-evenly m-5">
-        <div class="col-sm-6">
+        <div class="col-sm-4">
           <img
-            class="img-fluid rounded shadow"
+            class="img-fluid rounded shadow feature"
             src="/img/WeatherAppJS.jpg"
             alt="weather app screenshot"
           />
@@ -124,44 +122,28 @@
         </div>
       </div>
       <div class="row justify-content-evenly flex-row-reverse m-5">
-        <div class="col-sm-6 d-flex justify-content-end">
+        <div class="col-sm-4 d-flex justify-content-end">
           <img
-            class="img-fluid rounded shadow"
-            src="/img/WeatherAppJS.jpg"
+            class="img-fluid rounded shadow feature"
+            src="/img/react-weather.jpg"
             alt="weather app screenshot"
           />
         </div>
         <div class="col-sm-4 p-3">
-          <h3>Weather App</h3>
+          <h3>React Weather App</h3>
           <p>
-            A weather app made with HTML, CSS, and Vanilla JS, styled with
-            Bootstrap with live info by the OpenWeather API
+            A weather app made with React, with optimized icons and updated
+            styling with Bootstrap with live info by the OpenWeather API
           </p>
-          <a href="https://stellular-flan-2b76ee.netlify.app/" target="_blank"
+          <a
+            href="https://celebrated-griffin-5650fc.netlify.app/"
+            target="_blank"
             ><button class="buttony">Open Project</button></a
           >
         </div>
       </div>
-      <div class="row justify-content-evenly m-5">
-        <div class="col-sm-6">
-          <img
-            class="img-fluid rounded shadow"
-            src="/img/WeatherAppJS.jpg"
-            alt="weather app screenshot"
-          />
-        </div>
-        <div class="col-sm-4 p-3">
-          <h3>Weather App</h3>
-          <p>
-            A weather app made with HTML, CSS, and Vanilla JS, styled with
-            Bootstrap with live info by the OpenWeather API
-          </p>
-          <a href="https://stellular-flan-2b76ee.netlify.app/" target="_blank"
-            ><button class="buttony">Open Project</button></a
-          >
-        </div>
-      </div>
-      <div class="footer">
+    </section>
+      <footer class="footer">
         <div class="col-sm-12 socials d-flex justify-content-center">
           <a href="https://github.com/afollack" target="_blank"
             ><i class="fa-brands fa-github"></i
@@ -171,7 +153,8 @@
           ></a>
         </div>
         <p class="text-center small">Andrea Follack, 2022</p>
-      </div>
+      </footer>
     </div>
+    <script src="/src/app.js"></script>
   </body>
 </html>
